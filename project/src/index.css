@@ -55,4 +55,10 @@ header {
   position: absolute;
   left: 25%;
 }
+footer{
+  position: fixed;
+  bottom: 0; 
+  width: 100%;
+}
+
 

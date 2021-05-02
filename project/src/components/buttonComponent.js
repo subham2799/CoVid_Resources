@@ -6,7 +6,7 @@ function ButtonComponent(){
                     <div className = "selection container" style = {{marginLeft:5}}>
                         <div classname = "row">
                             <div className = "col-sm-7" style = {{paddingLeft: 0}}>
-                                <img src = {"https://pbs.twimg.com/media/E0NSNHhVcAE-z0K.jpg"} style = {{width:"100%"}} alt = "Swasthya Bhawan Registration Process Image"className = "img-responsive"/>
+                                <img src = {"https://pbs.twimg.com/media/E0NSNHhVcAE-z0K.jpg"} style = {{width:"100%"}} alt = "Swasthya Bhawan Registration Process"className = "img-responsive"/>
                             </div>
                             <div className = "col-sm-5" style = {{paddingLeft: "50px"}}>
                                 <span>FOR MORE INFORMATION (for bed availability): <a href = {"https://www.wbhealth.gov.in/pages/corona/bed_availability_pvt"}>https://www.wbhealth.gov.in/pages/corona/bed_availability_pvt </a></span>	
