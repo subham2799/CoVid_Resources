@@ -29,9 +29,11 @@ class Body extends Component{
                             <option value="malda">Malda</option>
                             <option value="hooghly">Hooghly</option>
                             <option value="darjeeling">Darjeeling</option>
+                            <option value="24 parganas (north)">24 Parganas (North)</option>
+                            <option value="kolkata">Kolkata</option>
                         </select> 
 
-                        <label className = "label-text"><strong>Commodity:&nbsp;&nbsp;&nbsp;</strong></label>
+                        <label className = "label-text"><strong>Search for:&nbsp;&nbsp;&nbsp;</strong></label>
                         <select 
                             value={this.state.commodity}
                             onChange={this.handleChange}
@@ -40,6 +42,9 @@ class Body extends Component{
                             <option value="">Select an option</option>
                             <option value="oxygen">Oxygen</option>
                             <option value="ambulance">Ambulance</option>
+                            <option value="cylinder">Cylinder</option>
+                            <option value="volunteers">Volunteers</option>
+                            <option value="home_care_packages">Home Care Packages</option>
                             <option value="food">Food</option>
                         </select>  
 
