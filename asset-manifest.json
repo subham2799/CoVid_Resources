@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CoVid_Resources/static/css/main.7364a292.chunk.css",
+    "main.js": "/CoVid_Resources/static/js/main.358d11c3.chunk.js",
+    "main.js.map": "/CoVid_Resources/static/js/main.358d11c3.chunk.js.map",
+    "runtime-main.js": "/CoVid_Resources/static/js/runtime-main.926214b4.js",
+    "runtime-main.js.map": "/CoVid_Resources/static/js/runtime-main.926214b4.js.map",
+    "static/js/2.16c1da8e.chunk.js": "/CoVid_Resources/static/js/2.16c1da8e.chunk.js",
+    "static/js/2.16c1da8e.chunk.js.map": "/CoVid_Resources/static/js/2.16c1da8e.chunk.js.map",
+    "static/js/3.47f6d717.chunk.js": "/CoVid_Resources/static/js/3.47f6d717.chunk.js",
+    "static/js/3.47f6d717.chunk.js.map": "/CoVid_Resources/static/js/3.47f6d717.chunk.js.map",
+    "index.html": "/CoVid_Resources/index.html",
+    "static/css/main.7364a292.chunk.css.map": "/CoVid_Resources/static/css/main.7364a292.chunk.css.map",
+    "static/js/2.16c1da8e.chunk.js.LICENSE.txt": "/CoVid_Resources/static/js/2.16c1da8e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.926214b4.js",
+    "static/js/2.16c1da8e.chunk.js",
+    "static/css/main.7364a292.chunk.css",
+    "static/js/main.358d11c3.chunk.js"
+  ]
+}
