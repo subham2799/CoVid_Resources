@@ -8,6 +8,7 @@ function ResourceView(props){
                 <td>{props.name}</td>
                 <td>{props.area}</td>
                 <td>{props.organisation}</td>
+                <td>{props.contact}</td>
             </tr>
         );
     }

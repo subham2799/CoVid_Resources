@@ -17,7 +17,7 @@ class Volunteers extends React.Component{
         .catch(error => {console.log(error)});
     }
     render(){
-        const allDataArray = this.state.resourceData.map(item => <ResourceView selected = {this.props.district} district = {item.District} name = {item.Name} area = {item.Area} organisation = {item["Organisation"]} />);
+        const allDataArray = this.state.resourceData.map(item => <ResourceView selected = {this.props.district} district = {item.District} name = {item.Name} area = {item.Area} organisation = {item["Organisation"]} contact = {item["Contact Number"]} />);
         let flag = false;
         for(let i = 0;i < allDataArray.length; i = i + 1){
             if(allDataArray.length>0 && (this.props.district.toUpperCase() === allDataArray[i].props.district.toUpperCase()))
@@ -35,6 +35,7 @@ class Volunteers extends React.Component{
                                 <th scope="col">NAME</th>
                                 <th scope="col">AREA</th>
                                 <th scope="col">ORGANISATION</th>
+                                <th scope="col">CONTACT INFORMATION</th>
                             </tr>
                         </thead>
                         <tbody>
