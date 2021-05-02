@@ -26,13 +26,15 @@ header {
 .header-text{
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 50px;
+  font-size: 45px;
   text-align: left;
 }
+
 .selection{
   padding-top: 15px;
   font-size: large;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .footer-text {
@@ -43,5 +45,14 @@ header {
 
 .label-text {
   padding-left: 20px;
+}
+
+#f1{
+  width: 50%;
+}
+
+.image-container{
+  position: absolute;
+  left: 25%;
 }
 
